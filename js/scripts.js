@@ -5,6 +5,7 @@ const btnOpcao = document.querySelectorAll(".btnOpcao");
 const btnElevado = document.querySelector("#btnElevado");
 const btnZerar = document.querySelector("#btnZerar");
 const igual = document.querySelector("#btnPesquisa");
+const btnPorc = document.querySelector("#btnPorc")
 let parteUm = 0;
 let operacao = 0;
 
@@ -81,4 +82,7 @@ btnZerar.addEventListener("click", () => {
 btnElevado.addEventListener("click", () => {
     const telaValor = Number(tela.value);
     tela.value = telaValor * telaValor;
+})
+btnPorc.addEventListener("click", () => {
+    alert("Ainda não ta funcionando!")
 })
