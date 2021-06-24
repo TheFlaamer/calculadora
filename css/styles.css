@@ -85,3 +85,6 @@ main .calculadora .btn {
     width: 100%;
     appearance: none;
 }
+main .calculadora div.w33:last-of-type {
+    padding-right: 0px;
+}
